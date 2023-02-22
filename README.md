@@ -1,3 +1,17 @@
+This was my first time using Typescript. I think it was really nice to use with React. 
+
+My project is really simple and small but I thought that would help me to see how typescript comes into something that I already know. 
+I used a random API from the internet. 
+First I had to declare everything from the api object with interface. There Typescript tells us what each item in the property is. I used this link to convert it from an API object: http://json2ts.com/ 
+In the useState I added the interface name in <> so typescript would know what interface I was using. Below that I had to add in all the things from API object where the strings were empty strings so Typescript would understand what to do with them. 
+After that the code is just a normal React, where I fetch the API like we've done before. It was nice to do it again an refresh my memory on that. I also added a button that only refreshes the API on click but not the whole page. Then I quicly used CSS to style the page, nothing fancy. 
+
+I commented relevant things into the code :) 
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
